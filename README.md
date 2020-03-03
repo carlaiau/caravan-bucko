@@ -57,6 +57,14 @@ $ npm start
 Now visit `https://localhost:3000` to interact with your local copy of
 Caravan.
 
+If you get an insecure error in your browser you will need to manually
+allow insecure connections from localhost. This error is because the server
+is using a self-signed certificate in order to serve the site with https
+(which is required for hardware signing), which the browser doesn't know if it can trust. 
+In Chrome, you may have to do this with a special flag in your browser's settings:
+
+[chrome://flags/#allow-insecure-localhost](chrome://flags/#allow-insecure-localhost)
+
 ### Host Remotely
 
 Once you have downloaded the source code and used `npm` to install
