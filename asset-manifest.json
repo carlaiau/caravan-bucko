@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/caravan/static/css/main.fcc2762e.chunk.css",
-    "main.js": "/caravan/static/js/main.e52bdd0c.chunk.js",
-    "main.js.map": "/caravan/static/js/main.e52bdd0c.chunk.js.map",
+    "main.js": "/caravan/static/js/main.a2b1e5d6.chunk.js",
+    "main.js.map": "/caravan/static/js/main.a2b1e5d6.chunk.js.map",
     "runtime-main.js": "/caravan/static/js/runtime-main.01b265b8.js",
     "runtime-main.js.map": "/caravan/static/js/runtime-main.01b265b8.js.map",
     "static/css/2.599c45ea.chunk.css": "/caravan/static/css/2.599c45ea.chunk.css",
-    "static/js/2.0c7997ed.chunk.js": "/caravan/static/js/2.0c7997ed.chunk.js",
-    "static/js/2.0c7997ed.chunk.js.map": "/caravan/static/js/2.0c7997ed.chunk.js.map",
+    "static/js/2.55a00244.chunk.js": "/caravan/static/js/2.55a00244.chunk.js",
+    "static/js/2.55a00244.chunk.js.map": "/caravan/static/js/2.55a00244.chunk.js.map",
     "index.html": "/caravan/index.html",
-    "precache-manifest.a59228745e33e1a5986f6f84c23cef66.js": "/caravan/precache-manifest.a59228745e33e1a5986f6f84c23cef66.js",
+    "precache-manifest.2471a1a6f5b9c6fa8722d949de7bba7e.js": "/caravan/precache-manifest.2471a1a6f5b9c6fa8722d949de7bba7e.js",
     "service-worker.js": "/caravan/service-worker.js",
     "static/css/2.599c45ea.chunk.css.map": "/caravan/static/css/2.599c45ea.chunk.css.map",
     "static/css/main.fcc2762e.chunk.css.map": "/caravan/static/css/main.fcc2762e.chunk.css.map",
-    "static/js/2.0c7997ed.chunk.js.LICENSE.txt": "/caravan/static/js/2.0c7997ed.chunk.js.LICENSE.txt",
+    "static/js/2.55a00244.chunk.js.LICENSE.txt": "/caravan/static/js/2.55a00244.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/caravan/static/media/logo.66481e66.png"
   },
   "entrypoints": [
     "static/js/runtime-main.01b265b8.js",
     "static/css/2.599c45ea.chunk.css",
-    "static/js/2.0c7997ed.chunk.js",
+    "static/js/2.55a00244.chunk.js",
     "static/css/main.fcc2762e.chunk.css",
-    "static/js/main.e52bdd0c.chunk.js"
+    "static/js/main.a2b1e5d6.chunk.js"
   ]
 }
