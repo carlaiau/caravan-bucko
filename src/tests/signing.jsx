@@ -20,7 +20,7 @@ import Test from "./Test";
 
 class SignMultisigTransactionTest extends Test {
   name() {
-    return `Sign ${this.params.network} transaction w/ ${this.params.outputs.length} outputs and ${this.params.inputs.length} inputs`;
+    return `Sign ${this.params.network} ${this.params.braidDetails.addressType} transaction w/ ${this.params.outputs.length} outputs and ${this.params.inputs.length} inputs`;
   }
 
   // eslint-disable-next-line class-methods-use-this
@@ -36,7 +36,7 @@ class SignMultisigTransactionTest extends Test {
   description() {
     return (
       <Box>
-        <p>Sign a transaction which{this.params.description}.</p>
+        <p>Sign a transaction which {this.params.description}.</p>
         <p>
           <small>
             This transaction is not meant to be broadcast, but just in case, the
