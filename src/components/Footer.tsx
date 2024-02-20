@@ -3,8 +3,6 @@ import React from "react";
 import { Grid, Box } from "@mui/material";
 import { externalLink } from "utils/ExternalLink";
 
-import logo from "../images/logo.png";
-
 const Footer = () => (
   <Box mt={2}>
     <hr />
@@ -18,12 +16,9 @@ const Footer = () => (
 
       <Grid item sm={5}>
         <p>
-          Original code by Unchained Capital and released
-          under an MIT license.
+          Original code by Unchained Capital and released under an MIT license.
         </p>
       </Grid>
-
-      
     </Grid>
   </Box>
 );
