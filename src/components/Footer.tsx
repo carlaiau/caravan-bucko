@@ -9,7 +9,7 @@ const Footer = () => (
     <Grid container justifyContent="space-between" alignItems="center">
       <Grid item sm={2}>
         {externalLink(
-          "https://github.com/carlaiau/caravan-bucko",
+          "https://github.com/carlaiau/caravan-bucko/tree/configurable-client",
           <p>SSC Development purposes only. Not Main commited Code</p>
         )}
       </Grid>
