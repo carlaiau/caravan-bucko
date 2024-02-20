@@ -77,7 +77,7 @@ const Navbar = () => {
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             <Button color="inherit" component={Link} to="/">
-              Caravan
+              SSC FORK
             </Button>
           </Typography>
 
