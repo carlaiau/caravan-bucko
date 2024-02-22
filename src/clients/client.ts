@@ -150,13 +150,13 @@ export class BlockchainClient extends ClientBase {
 
   public async broadcastTransaction(rawTx: string): Promise<any> {
     try {
-      if (this.type === ClientType.PRIVATE) {
-        return bitcoindSendRawTransaction({
+      if (this.type === ClientType.MEMPOOL) {
+        return await this.Post(`/tx`, { tx: rawTx });  
+      }
+      return bitcoindSendRawTransaction({
           hex: rawTx,
           ...this.bitcoindParams,
         });
-      }
-      return await this.Post(`/tx`, { tx: rawTx });
     } catch (error) {
       throw new Error(`Failed to broadcast transaction: ${error.message}`);
     }
